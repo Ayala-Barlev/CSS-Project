@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הצטרפות לפורום</title>
+    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylef.css" />
+</head>
+<body>
+    <div id="open">
+        <i class="fas fa-ellipsis-v"></i>
+    </div>
+    <div id="header">
+        <a href="index.html#main"> <img src="images/netfree_logo_small_light.png" width="80" /></a>
+         <div id="language">
+             <a href="">עבר</a>
+             <h5>|</h5>
+             <a href="">eng</a>   
+         </div>
+         <div id="menu">
+             <ul>
+                <li><a href="index.html#main">ראשי</a></li>
+                <li><a href="index.html#about">אודות</a></li>
+                <li><a href="index.html#join">הצטרפות אלינו</a></li>
+                <li><a href="index.html#forom">פורום</a></li>
+                <li><a href="Instructions.html">מדריכים</a></li>
+                <li><a href="https://netfree.link/app/#/login?r=%2Fuser%2Finfo">אזור אישי</a></li>
+                <li><a href="index.html#give">תרומה</a></li>
+                <li><a href="index.html#contant">צור קשר</a></li>
+             </ul>
+         </div>
+    </div>
+    <div id=title>
+        <i class="fas fa-users"></i>
+        <h1>הצטרפות לפורום:</h1>
+    </div>
+    <div id="forms">
+        <form name="user" action="./endf.html">
+            <div>
+                <label for="first-name">שם משתמש:</label>
+                <input type="text" id="first-name" name="first-name" required="required" minlength="2" />
+                <br /> <span class="error">  שדה חובה!  </span>
+            </div>
+            <div>
+                <label for="email">כתובת מייל:</label>
+                <input type="email" id="email" name="emaile" required="required" minlength="2"> 
+                <br /> <span class="error">  שדה חובה!  </span>
+            </div>
+            <div>
+                <label for="sis">סיסמה:</label>
+                <input type="password" id="sis" name="sise"required="required" minlength="2"> 
+                <br /> <span class="error">  שדה חובה!  </span>
+            </div>
+            <div>
+                <label for="birth-day">תאריך לידה:</label>
+                <input type="date" id="birth-day" name="birthday"/> 
+            </div>
+            <div id="r">
+                <input type="radio" id="male" name="type" value="male"/> <label for="male"><p>ז</p></label> 
+                <input type="radio" id="female" name="type" value="female"/><label for="female"><p>נ</p></label>
+            </div>
+            <div>
+                <label for="img">תמונת פרופיל:</label>
+                <input type="file" id="img" name="id-file"/>
+            </div>
+            <div>
+                <label for="country">מדינה:</label>
+                <select id="country" name="country">
+                    <option value="israel">ישראל</option>
+                    <option value="usd">ארצות הברית</option>
+                    <option value="england">אנגליה</option>
+                    <option value="russa">רוסיה</option>
+                    <option value="fre">צרפת</option>
+                    <option value="polish">פולין</option>
+                    <option value="china">סין</option>
+                    <option value="japan">יפן</option>
+                    <option value="ukrain">אוקרינה</option>
+                </select>
+            </div>       
+            <br>
+            <button type="submit"> שמירה</button>
+            <button type="reset"> recent</button>
+            <br>
+        </form>
+    </div>
+    
+    
+</body>
